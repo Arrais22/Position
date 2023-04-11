@@ -1,0 +1,26 @@
+/* POSITION
+
+position: static (padrão) - Não aceita valores de Top, Bottom, right e left.
+position: fixed (fixo) - Fixa o elemento na tela.
+position: sticky - Age como adesivo, fixa o elemento onde eu determinar.
+position: relative - posição relativa a posição inicial dele
+position: absolute - posição absoluta a algum elemento ou a página
+
+
+PROPRIEDADES:
+      - Top;
+      - Bottom;
+      - left;
+      - right;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li:nth-child(3){
+    color: red;
+}
+
